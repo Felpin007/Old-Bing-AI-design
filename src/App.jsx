@@ -100,8 +100,13 @@ function App() {
   // Gemini model options
   const GEMINI_MODELS = [
     {
-      id: 'gemini-2.5-pro-preview-03-25',
-      label: 'Pré-lançamento do Gemini 2.5 Pro',
+      id: 'gemini-2.5-pro-exp-03-25',
+      label: 'Gemini 2.5 Pro',
+      description: 'Pensamento e raciocínio aprimorados, compreensão multimodal, programação avançada e muito mais',
+    },
+    {
+      id: 'gemini-2.5-flash-preview',
+      label: 'Gemini 2.5 Flash',
       description: 'Pensamento e raciocínio aprimorados, compreensão multimodal, programação avançada e muito mais',
     },
     {
